@@ -5,7 +5,7 @@ on:
 
 env:
   PYTHON_VERSION: '3.8'
-  AZURE_FUNCTIONAPP_NAME: ''
+  AZURE_FUNCTIONAPP_NAME: 'sample-func-rnakamine'
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
 
 jobs:
