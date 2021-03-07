@@ -21,7 +21,7 @@ jobs:
       with:
         python-version: ${{ env.PYTHON_VERSION }}
 
-    - name: 'Resolve Project Dependencies Using Pip'
+    - name: Resolve Project Dependencies Using Pip
       shell: bash
       run: |
         pushd .
@@ -29,11 +29,12 @@ jobs:
         pip install -r requirements.txt --target=".python_packages/lib/site-packages"
         popd
 
-    - name: 'Tests'
-      shell: bash
-      run: pytest tests
+    - name: Run Tests
+      run: |
+        pip install pytest
+        pytest tests
 
-    - name: 'Run Azure Functions Action'
+    - name: Run Azure Functions Action
       uses: Azure/functions-action@v1
       id: fa
       with:
