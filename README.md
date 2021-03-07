@@ -1,2 +1,15 @@
 # azure-functions-actions-example
-This is a repository for sample github actions for deploying azure functions.
+[WIP] This is a repository for sample github actions for deploying azure functions.
+
+## Usage
+
+### Get Credentials
+
+Create an Azure service principal with the Azure CLI
+```
+az ad sp create-for-rbac \
+  --name "<APP_NAME>" \
+  --role contributor \
+  --scopes /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.Web/sites/<APP_NAME> \
+  --sdk-auth
+```
