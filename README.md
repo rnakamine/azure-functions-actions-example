@@ -1,6 +1,6 @@
 # azure-functions-actions-example
 
-![Workflow Status](https://github.com/rnakamine/azure-functions-actions-example/workflows/Workflow/badge.svg) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+![workflow Status](https://github.com/rnakamine/azure-functions-actions-example/workflows/workflow/badge.svg) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 [WIP] This is a repository for sample github actions for deploying azure functions.
 
