@@ -1,5 +1,8 @@
 name: Deploy Python project to function app
 
+on:
+  [push]
+
 env:
   PYTHON_VERSION: '3.8'
   AZURE_FUNCTIONAPP_NAME: ''
