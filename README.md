@@ -3,7 +3,7 @@
 
 ## Usage
 
-### Get Credentials
+### Setting Credentials
 
 Create an Azure service principal with the Azure CLI
 ```
